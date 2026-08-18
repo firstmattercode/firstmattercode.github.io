@@ -11,35 +11,6 @@ export default function Home() {
         An independent software studio.
       </p>
 
-      <a
-        href="https://github.com/firstmattercode"
-        className="mt-8 -ml-4 inline-flex items-center gap-2 self-start rounded-full px-4 py-2 text-sm/7 font-medium text-mist-950 transition-colors hover:bg-mist-950/10 dark:text-white dark:hover:bg-white/10"
-      >
-        View on GitHub
-        <svg
-          width={13}
-          height={7}
-          viewBox="0 0 13 7"
-          fill="none"
-          strokeWidth={1}
-          aria-hidden="true"
-          className="inline-block"
-        >
-          <path
-            d="M12.5049 3.49512L0.504883 3.49512"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M9.5 6.5L12.5 3.5L9.5 0.5"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      </a>
-
       <section className="mt-16">
         <h2 className="text-sm font-medium tracking-widest text-mist-500 uppercase">
           Contact
