@@ -1,0 +1,21 @@
+node_modules
+.next
+out
+dist
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.vscode/*
+!.vscode/settings.json
+.DS_Store
+*.log
+.vercel
+
+
+# Claude Code (local only)
+CLAUDE.md
+.claude/
+
+# Cached font for scripts/gen-brand.ts
+.cache

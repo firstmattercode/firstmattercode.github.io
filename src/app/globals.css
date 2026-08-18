@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+/*
+ * The oatmeal kit's Mist theme (mist_instrument), stripped to just what
+ * this one-page site uses: the mist scale and the two font families.
+ * Dark mode is Tailwind v4's default `dark:` — driven by the visitor's
+ * `prefers-color-scheme`, with no toggle and no JavaScript. The font
+ * families are wired to the next/font CSS variables set in layout.tsx.
+ */
+@theme {
+  --font-display: var(--font-instrument-serif), serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  /* 50 and 900 are interpolated — the kit only ships the steps its own
+     pages use, and those two never appear in the Mist previews. */
+  --color-mist-50: oklch(98.6% 0.002 197.1);
+  --color-mist-100: oklch(96.3% 0.002 197.1);
+  --color-mist-200: oklch(92.5% 0.005 214.3);
+  --color-mist-300: oklch(87.2% 0.007 219.6);
+  --color-mist-400: oklch(72.3% 0.014 214.4);
+  --color-mist-500: oklch(56% 0.021 213.5);
+  --color-mist-600: oklch(45% 0.017 213.2);
+  --color-mist-700: oklch(37.8% 0.015 216);
+  --color-mist-800: oklch(27.5% 0.011 216.9);
+  --color-mist-900: oklch(21.8% 0.009 220);
+  --color-mist-950: oklch(14.8% 0.004 228.8);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-mist-100);
+
+    @variant dark {
+      background-color: var(--color-mist-950);
+    }
+  }
+}
