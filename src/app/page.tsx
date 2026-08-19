@@ -12,27 +12,14 @@ export default function Home() {
         An independent software studio.
       </p>
 
-      {/* Parked until the copy is reworded — restore by removing the
-          comment wrapper. */}
-      {/*
       <section className="mt-16">
         <h2 className="text-sm font-medium tracking-widest text-mist-500 uppercase">
           About
         </h2>
-        <div className="mt-6 max-w-xl space-y-4 text-base/7 text-mist-700 dark:text-mist-400">
-          <p>
-            First Matter Code is an independent software studio based in
-            Charlottesville, Virginia, building applications for Apple
-            platforms.
-          </p>
-          <p>
-            Founded in August 2026 by Jonathan Esposito, the studio designs,
-            builds, and publishes its own software. Its first applications are
-            in development for iPhone.
-          </p>
-        </div>
+        <p className="mt-6 max-w-xl text-base/7 text-mist-700 dark:text-mist-400">
+          First Matter Code is an independent software studio in Charlottesville, Virginia, founded in August 2026 by Jonathan Esposito. Our first application for iPhone is currently in development.
+        </p>
       </section>
-      */}
 
       <section className="mt-16">
         <h2 className="text-sm font-medium tracking-widest text-mist-500 uppercase">
