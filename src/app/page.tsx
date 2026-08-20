@@ -17,7 +17,7 @@ export default function Home() {
           About
         </h2>
         <p className="mt-6 max-w-xl text-base/7 text-mist-700 dark:text-mist-400">
-          First Matter Code is an independent software studio in Charlottesville, Virginia, founded in August 2026 by Jonathan Esposito. Our first application for iPhone is currently in development.
+          First Matter Code is an independent software studio in Charlottesville, Virginia, founded in August 2026 by Jonathan Esposito. The first application for iPhone is currently in development.
         </p>
       </section>
 
